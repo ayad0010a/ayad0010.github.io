@@ -1,0 +1,651 @@
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background-color: #222;
+    padding: 20px;
+}
+
+/* Logo */
+.logo img {
+    width: 80px;
+}
+
+/* Menu vertical */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+/* Lien menu */
+.menu ul li a {
+    color: #c58a00;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/* Home jaune */
+.menu ul li:first-child a {
+    display: block;
+    background-color: #c58a00;
+    color: black;
+    padding: 40px;
+}
+.search form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.search input {
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.search a {
+    background-color: #c58a00;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+.about {
+    background-color: #f5e1b5;
+    padding: 40px;
+}
+
+.about h2 {
+    font-size: 50px;
+}
+
+.about-image img {
+    width: 100%;
+}
+.services {
+    padding: 40px;
+}
+
+.services h2 {
+    font-size: 50px;
+}
+/* HERO */
+.hero {
+    position: relative;
+}
+
+/* IMAGE */
+.hero-image img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+
+/* OVERLAY */
+.hero-image {
+    position: relative;
+}
+
+.hero-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+/* TEXTE */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 2;
+    max-width: 600px;
+}
+
+/* TITRE */
+.hero-content h1 {
+    font-size: 70px;
+}
+
+/* BOUTON */
+.hero-button {
+    display: inline-block;
+    background: #c58a00;
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+/* Image */
+
+
+/* Overlay sombre (optionnel mais comme ta maquette) */
+
+/* TEXTE PAR-DESSUS */
+/* SECTION BACKGROUND */
+.services2S {
+    background-color: #f5e1b5;
+    padding: 40px;
+}
+
+/* CONTENU */
+.digital-content {
+    max-width: 800px;
+}
+
+/* TITRE "Our services" */
+.digital-title:first-child {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* IMAGE */
+.digital-content img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* TITRE Digital Transformation */
+.digital-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* TEXTE */
+.digital-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* BOUTON */
+.digital-button {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* HOVER */
+.digital-button:hover {
+    background-color: #444;
+}
+.marketing {
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* IMAGE EN HAUT */
+.about-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+/* BLOC BEIGE */
+.marketing-content {
+    background-color: #e6d2a3; /* beige */
+    padding: 50px 60px;
+}
+
+/* TITRE */
+.marketing-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* TEXTE */
+.marketing-text {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+/* BOUTON */
+.marketing-btn {
+     display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.marketing-btn:hover {
+    background-color: #444;
+}
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* SECTIONS (video + web) */
+/* RESET */
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* SECTIONS */
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===================== */
+/* VIDEO */
+/* ===================== */
+
+.video {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  background: #e7d19a;
+  gap: 30px;
+}
+
+.video .image {
+  order: 1;
+}
+
+.video-content {
+  order: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.video-text {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.video-button {
+  display: inline-block;
+  padding: 15px 25px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+}
+
+/* ===================== */
+/* WEB */
+/* ===================== */
+
+.web {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  background: #e7d19a;
+  gap: 30px;
+}
+
+.web .image {
+  order: 1;
+}
+
+.web-content {
+  order: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.web-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.web-text {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.web-button {
+  display: inline-block;
+  padding: 15px 25px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+}
+
+/* ===================== */
+/* PRINT */
+/* ===================== */
+
+.print {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  background: #e7d19a;
+  gap: 30px;
+}
+
+.print-image {
+  order: 1;
+}
+
+.print-content {
+  order: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.print-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.print-text {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.print-button {
+  display: inline-block;
+  padding: 15px 25px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+}
+
+/* ===================== */
+/* IMAGE (COMMUN) */
+/* ===================== */
+
+.image img,
+.print-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* SECTION OUR VISION */
+
+.vision {
+  position: relative;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  color: white;
+  overflow: hidden;
+}
+
+/* Image en arrière-plan */
+.vision .about-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.vision .about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay sombre */
+.vision::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2));
+  z-index: 1;
+}
+
+/* Texte au-dessus */
+.vision h1,
+.vision p,
+.vision a {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.vision h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.vision p {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* Bouton */
+.vision a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 15px 30px;
+  border: 2px solid orange;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.vision a:hover {
+  background: orange;
+  color: black;
+}
+/* Image en background */
+
+.john {
+  max-width: 900px;
+  margin: 40px auto;
+  position: relative;
+  font-family: Arial, sans-serif;
+  background: #e6d3a3;
+  padding-top: 300px; /* espace pour l'image */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* IMAGE en haut */
+.john img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* CONTENU */
+.john h1,
+.john h3,
+.john p,
+.john hr {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* NOM */
+.john h1 {
+  margin: 0;
+  padding-top: 25px;
+  font-size: 42px;
+}
+
+/* POSTE */
+.john h3 {
+  margin: 5px 0 10px;
+  font-weight: bold;
+}
+
+/* LIGNE */
+.john hr {
+  border: none;
+  height: 3px;
+  background: #b8860b;
+  margin: 10px 30px;
+}
+
+/* TEXTE */
+.john p {
+  padding-bottom: 30px;
+  line-height: 1.6;
+}
+/* Overlay sombre (comme sur ton image) */
+
+
+/* Contenu au-dessus */
+
+.bob {
+  max-width: 900px;
+  margin: 40px auto;
+  position: relative;
+  font-family: Arial, sans-serif;
+  background: #e6d3a3;
+  padding-top: 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* IMAGE en haut */
+.bob img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* CONTENU */
+.bob h1,
+.bob h3,
+.bob p,
+.bob hr {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* NOM */
+.bob h1 {
+  margin: 0;
+  padding-top: 25px;
+  font-size: 42px;
+}
+
+/* POSTE */
+.bob h3 {
+  margin: 5px 0 10px;
+  font-weight: bold;
+}
+
+/* LIGNE */
+.bob hr {
+  border: none;
+  height: 3px;
+  background: #b8860b;
+  margin: 10px 30px;
+}
+
+/* TEXTE */
+.bob p {
+  padding-bottom: 30px;
+  line-height: 1.6;
+}
+
+
+/* Image en background */
+
+
+/* Overlay sombre (comme sur ton image) */
+/* SECTION GLOBALE */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+}
+
+/* TITRES */
+h1 {
+  font-size: 60px;
+  margin: 40px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 40px 40px 20px;
+}
+
+/* FORMULAIRE */
+.formulaire {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 40px 60px;
+}
+
+/* LABELS */
+.formulaire label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* INPUT + TEXTAREA */
+.formulaire input,
+.formulaire textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #aaa;
+  font-size: 8px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+/* FOCUS */
+.formulaire input:focus,
+.formulaire textarea:focus {
+  border-color: orange;
+}
+
+/* BOUTON */
+.formulaire button {
+  background: #222;
+  color: orange;
+  border: none;
+  padding: 12px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.formulaire button:hover {
+  background: orange;
+  color: black;
+}
+
+/* Bouton */
+
+
